@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body> 
+    <div id="container">
+    <nav>
+        <h2>
+            <span class="login-btn">Login</span> |
+            <span class="registor-btn">Registor</span>|
+            <span id="filters-nav" >Filter</span>
+
+        </h2>
+    </nav>
+
+  <div id="search-box">
+      <h1 style="width: 100%; text-align: center;">Social media</h1>
+      <input id="search-text" type="text" placeholder="search...">
+      <button id="search-button">search</button>
+  </div>
+      <div id="users-Box">
+
+
+      </div>
+      <div id="filters">
+          <h2>Filters</h2>
+            <p>LastName</p>
+            <select name="" id="lastName-filter">
+                <option value="">==========</option>
+                <option value="Hambardzumyan">Hambardzumyan</option>
+                <option value="Khechumyan">Khechumyan</option>
+                <option value="Antonyan">Antonyan</option>
+                <option value="Hayriyan">Hayriyan</option>
+                <option value="Qocharyan">Qocharyan</option>
+                <option value="Aghajanyan">Aghajanyan</option>
+                <option value="Panyan">Panyan</option>
+                <option value="Tadevosyan">Tadevosyan</option>
+                <option value="Gevorgyan">Gevorgyan</option>
+                <option value="Melkumyan">Melkumyan</option>
+                <option value="Sahakyan">Sahakyan</option>
+                <option value="Danielyan">Danielyan</option>
+                <option value="Dashyan">Dashyan</option>
+                <option value="Eremyan">Eremyan</option>
+                <option value="Petrosyan">Petrosyan</option>
+                <option value="Harutyunyan">Harutyunyan</option>
+                <option value="Tovmasyan">Tovmasyan</option>
+                <option value="Shahnazaryan">Shahnazaryan</option>
+                <option value="Asatryan">Asatryan</option>
+                <option value="Stepanyan">Stepanyan</option>
+                <option value="Ohanyan">Ohanyan</option>
+                <option value="Galstyan">Galstyan</option>
+                <option value="Martirosyan">Martirosyan</option>
+                
+            </select>
+
+            <p>Gender</p>
+            <select name="" id="Gender-filter">
+                <option value="">==========</option>
+                <option value="man:">male</option>
+                <option value="woman;">female</option>
+               
+                
+            </select>
+
+           
+                <br>
+                <br>
+            <button id="update-filters">Update</button>
+        </div>
+
+        <div id="login-box">
+            <h2>login | <span style="cursor:pointer;float:right;" class="login-btn">X</span></h2>
+            <p>Email</p>
+            <input type="email" id="email"><span id="email-message"></span>
+            <p>Password</p>
+            <input type="password">
+            <br>
+            <br>
+            <button>Login</button>
+
+
+        </div>
+        <div>
+            <form method="post">
+                <div id="registor-box">
+                <h2> Registor | <span style="cursor:pointer;float:right;" class="registor-btn">X</span></h2>
+                <p>Name</p>
+                <div><input type="text" id="name"> name</div>
+                <p>Last name</p>
+                <div><input type="text" id="lastName">Last name</div> 
+                <p>phone</p>
+                <div><input type="number" id="phone">Last name</div> 
+                 <p>Email</p>
+                <div><input type="email" id="emailVal">E-mail</div>
+                <p>Gender</p>
+                <div><input type="radio" value="male" name="Gender" checked class="sex"> male </div>
+                <div><input type="radio" value="female" name="Gender" class="sex"> female </div>
+                <div><input type="radio" value="other" name="Gender" class="sex"> other </div>
+                <br>
+                <br>
+                <input type="submit" value="send" id="signup-submit">
+            </form>
+        </div>
+
+    </div>
+    <script type="module" src="js/fail.js"></script>
+
+</body>
+</html>

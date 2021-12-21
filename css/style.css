@@ -1,0 +1,182 @@
+body {
+   background: url(../img/thumb-1920-724830.jpg);
+   background-size: 100% auto;
+
+}
+
+@media screen and (max-width: 1200px) ,screen and(max-height: 720px){
+   #container{
+      max-width: 970px;
+   }
+}
+@media screen and (max-width: 970px) {
+   #container{
+      max-width: 750px;
+   }
+   
+}
+   
+@media screen and (max-width: 767){
+   #container{
+      max-width:none ;
+   }
+   
+}
+
+
+
+#search-box, #users-Box , nav{
+    max-width: 70%;
+     margin: 50px auto;
+    border: 2px solid #071D32;
+    border-radius: 10px;
+     padding: 10px;
+     overflow: hidden;
+     
+ }
+
+
+ #search-box{
+  background: url(../img/123.jpg) no-repeat;
+  background-size: 100% auto ;
+
+ }
+
+
+ nav>h2{
+     text-align: center;
+ }
+
+ nav> h2 > span{
+     color:#071D32;
+     cursor: pointer;
+
+ }
+ .registor-btn:hover{
+   font-size: 25px;
+   color: rgb(197, 152, 5);
+   font-weight: bold;
+ }
+ 
+ #filters-nav:hover {
+   font-size: 25px;
+   color: rgb(197, 152, 5);
+   font-weight: bold;
+}
+
+ .login-btn:hover{
+   font-size: 25px;
+   color: rgb(197, 152, 5);
+   font-weight: bold;
+
+}
+
+
+ #search-box>input{
+     display: block;
+     width: 70%;
+     margin: 0 auto;
+     font-size: 24px;
+ }
+
+ #search-box>button{
+    font-size: 24px;
+    display: block;
+    margin: 10px auto;
+
+ }
+ #search-box>button:hover{
+    font-size: 35px;
+    font-weight: bold;
+     
+ }
+
+
+ .user-item{ 
+    color: #000014;
+   
+    height: 250px;
+    border: 1px solid rgb(23, 24, 23);
+    border-radius: 20px;
+    padding: 10px;
+    float: left;
+    margin:10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url(../img/thumb-1920-724830.jpg);
+    
+ }
+ .user-item:hover{
+     background:url(../img/12.jpg);
+     font-size: 15px;
+     color: rgb(197, 152, 5);
+     font-weight: bold;
+ }
+ 
+
+ #filters{
+    width: 20%;
+    height: 92%;
+    border: 1px solid #000;
+    border-radius:15px ;
+    position: absolute;
+    top:50px;
+    right: 0;
+    color: cornsilk;
+    background:url(../img/12.jpg);
+    background-size: 100%;
+    margin: 10px;
+    display: none;
+    
+
+ }
+
+ #filters> p{
+     width: 100%;
+ }
+
+ #filters>select, #filters>button{
+    font-size: 18px;
+    width: 100%;
+    color:#071D32;
+ }
+ #filters>select, #filters>button:hover{
+    font-size: 25px;
+    font-weight: bold;
+ }
+
+ #login-box{
+    border: 1px solid #071D32;
+    border-radius: 15px;
+    padding: 15px;
+    width: 30%;
+    position: absolute;
+    left: 50px;
+    margin-left:300px;
+    top: 15%;
+    background:url(../img/12.jpg);
+    background-size: 100%;
+    color: #C9CACC;
+    display: none; 
+    box-shadow:50px;
+    
+
+ }
+
+ #registor-box{
+   border: 1px solid #071D32;
+   border-radius: 15px;
+   padding: 15px;
+   width: 30%;
+   position: absolute;
+   left: 50px;
+   margin-left:300px;
+   top: 15%;
+   background:url(../img/12.jpg);
+   background-size: 100%;
+   color: #C9CACC;
+   display: none; 
+   box-shadow:50px;
+   
+
+}
+
